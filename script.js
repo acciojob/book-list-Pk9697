@@ -8,7 +8,7 @@ const tbody=document.getElementById('book-list')
 let booksList=[]
 
 submitButton.addEventListener('click',()=>{
-	booksList.unshift({
+	booksList.push({
 			id:booksList.length,
 			title:titleInput.value,
 			author:authorInput.value,
